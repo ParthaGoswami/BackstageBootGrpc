@@ -1,0 +1,8 @@
+site_name: "MySampleBoot"
+site_description: "This is a Sample Boot Grpc Serveice"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

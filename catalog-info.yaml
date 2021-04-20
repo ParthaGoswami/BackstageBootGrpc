@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "MySampleBoot"
+  description: "This is a Sample Boot Grpc Serveice"
+  annotations:
+    github.com/project-slug: ParthaGoswami/BackstageBootGrpc
+    backstage.io/techdocs-ref: url:https://github.com/ParthaGoswami/BackstageBootGrpc
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "partha.ext@gmail.com"
